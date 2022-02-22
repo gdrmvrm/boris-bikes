@@ -1,4 +1,4 @@
-require 'bike'
+require 'boris_bikes'
 
 describe Bike do
   it "responds to working?" do
