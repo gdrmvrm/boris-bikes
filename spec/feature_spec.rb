@@ -10,7 +10,7 @@ describe 'using a docking station' do
   it 'stores a bike when I dock it' do
     station = DockingStation.new
     bike = Bike.new
-    station.dock(bike)
+    station.dock_bike(bike)
     expect(station.bikes[0].instance_of?(Bike)).to eq true
   end
 
